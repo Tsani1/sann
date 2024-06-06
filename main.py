@@ -121,7 +121,7 @@ def login_page():
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
     if st.button("Masuk"):
-        if username == "tsani" and password == "123":
+        if username == "abc" and password == "123":
             st.session_state.logged_in = True
             st.experimental_rerun()
         else:
